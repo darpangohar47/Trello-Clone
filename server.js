@@ -2,9 +2,12 @@ const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
 require('dotenv').config();
+const cors=require("cors");
 
 const app = express();
-
+app.use(cors({
+  origin: "*",
+}))
 // Connect database
 (async function connectDB() {
   try {
