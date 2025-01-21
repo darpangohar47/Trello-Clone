@@ -82,7 +82,7 @@ body {
 }
 
 .dashboard-and-navbar .navbar {
-  background-color: black;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
 }
 
 .dashboard {
@@ -90,7 +90,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 50px;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
   height:100vh;
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 .board-and-navbar .navbar {
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
 }
 
 .board-loading {
@@ -162,7 +162,7 @@ body {
 
 .board {
   padding: 10px;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
   height:100vh;
 }
 
@@ -249,7 +249,7 @@ body {
   padding: 0 10px 10px;
   margin-top: 10px;
   height: fit-content;
-  background-color: #0b23fa;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
   border-radius: 5px;
   display: flex;
   flex-direction: column;

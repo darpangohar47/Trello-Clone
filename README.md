@@ -35,8 +35,15 @@ A Trello-inspired task management application built using **Node.js**, **Express
 ## Installation and Setup
 
    ```bash
-   git clone https://github.com/yourusername/trello-clone.git
+   git clone https://github.com/darpangohar47/Trello-Clone.git
    cd trello-clone
    npm i 
    npm run dev 
    ```
+
+Remember to setup an .env file with following variables
+```
+MONGO_URI
+JWT_SECRET
+
+```
