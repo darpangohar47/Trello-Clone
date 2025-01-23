@@ -7,7 +7,7 @@ const cors = require("cors");
 const app = express();
 app.use(cors({
 
-  "origin": "*",
+  "origin": "https://trello-clone-tkbu.vercel.app/",
   "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
   "preflightContinue": false,
   "optionsSuccessStatus": 204
